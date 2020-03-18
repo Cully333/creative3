@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><img id="navlogo" src="images/navlogo.png"><img/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,6 +20,8 @@
     </div>
   </nav>
   <router-view />
+  <hr/>
+  <a id='github' href="https://github.com/Cully333/creative3">GitHub Link</a>
 </div>
 </template>
 
@@ -59,14 +61,29 @@ h1 {
 }
 
 h2 {
-  font-size: 2.1em;
+  font-size: 2em;
 }
 
-p:not(.navtext) {
+p {
   font-size: 1.2em;
+}
+
+.nav-link {
+  font-size:1.3em;
 }
 
 nav {
   background-color: #a3cfaf;
+}
+
+
+#github {
+  text-decoration: none;
+  color: black;
+}
+
+#navlogo {
+  height: 50px;
+  width: 50px;
 }
 </style>

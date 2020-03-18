@@ -40,13 +40,13 @@ export default {
 .animal {
   margin: 10px;
   margin-top: 50px;
-  width: 200px;
+  width: 550px;
 }
 
 .animal img {
-  border: 2px solid #333;
-  height: 250px;
-  width: 200px;
+  border: 2px solid #000000;
+  height: 500px;
+  width: 550px;
   object-fit: cover;
 }
 
@@ -57,18 +57,18 @@ export default {
 }
 
 .info {
-  background: #F2921D;
+  background: #61ab6b;
   color: #000;
   padding: 10px 30px;
   height: 80px;
 }
 
 .info h1 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .info h2 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .info p {

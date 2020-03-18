@@ -52,7 +52,7 @@ let mock = [{
     animal_species:"American buffalo",
     scientific_name:"Bison bison",
     given_name:"Genovera",
-    image:"americanbuffalo.jpg"
+    image:"americanbuffalo2.jpg"
   },
   {
     id:9,
@@ -269,7 +269,7 @@ let mock = [{
     animal_species:"Long-tailed jaeger",
     scientific_name:"Stercorarius longicausus",
     given_name:"Mariya",
-    image:"longtailedjaegar.jpg"
+    image:"longtailedjaeger.jpg"
   },
   {
     id:40,
@@ -283,7 +283,7 @@ let mock = [{
     animal_species:"Red-knobbed coot",
     scientific_name:"Fulica cristata",
     given_name:"Bernie",
-    image:"redknobbedcoot.jpg"
+    image:"redknobbedcoot2.jpg"
   },
   {
     id:42,
